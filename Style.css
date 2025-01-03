@@ -1,0 +1,160 @@
+@media screen and (max-width:768px) and (orientation: portrait) and (pointer: coarse){
+
+}/* Petite taille, format portrait, adapté au tactile. */
+
+@media screen and (min-width: 1024px) and (orientation: landscape){
+
+}/* Grande taille, format paysage. */
+
+
+body{
+    background-color: #ffeedb; /* Couleur de fond de la page. */
+    font-family: 'Quicksand', 'Courier New', Courier, monospace; /* Police de la page, à changer éventuellement. */
+    font-size: 15px; /* Grosseur de la police. */
+    }
+
+.navigation-horizontale{
+    width: 100%; /* Largeur de la nav-bar. */
+    height: 125px; /* Hauteur de la nav-bar. */
+    background-color: #38a3a5; /* Couleur de fond de la nav-bar. */
+    color: white; /* Couleur de la police. */
+    padding: 20px; /* Épaisseur de la nav-bar. */
+    }
+
+li{
+    list-style: none !important; /*Enlever la puce. */
+    padding: 12px; /* Épaisseur de la nav-bar. */
+    font-size: 20px; /* Grosseur de la police. */
+    text-decoration:none; /* Désactive le soulignement. */
+    }
+             
+nav ul{
+    list-style: none !important; /*Enlever la puce. */
+    display: flex; /* Formate la nav-bar selon la page. */
+    background-color:#38a3a5; /* Couleur de fond de la nav-bar. */
+    padding: 0; /* Épaisseur de la nav-bar. */
+    margin: 0; /* Marge de la nav-bar. */
+    }
+             
+nav ul li{
+    list-style: none !important; /* Enlever la puce. */
+    line-height: 100px; /* Délimite la hauteur de la nav-bar. */
+    float: none; /* Sera affiché normalement. */
+    background-color: #38a3a5; /* Couleur de la nav-bar. */
+    }
+             
+nav ul li a{
+    list-style: none !important; /* Enlever la puce. */
+    color: white; /* Couleur de la police. */
+    padding: 10px; /* Espace les cases. */
+    font-size: 20px; /* Grosseur de la police */
+    text-decoration: none; /* Désactive le soulignement. */
+    }
+             
+li a:hover{
+    list-style: none !important; /* Enlever la puce. */
+    border-bottom: 4px white solid; /* Épaisseur de la bordure. */
+    }
+            
+nav ul li:hover ul{ 
+    list-style: none !important; /* Enlever la puce. */
+    z-index:99999; /* Priorité de superposition. */
+    display: list-item !important; /* Disposé comme une liste. */
+    position: absolute; /* S'adapte à son conteneur */
+    margin-top: 5px; /* Marge. */
+    margin-left: -10px; /* Marge gauche. */
+    }
+
+.sous-navigation{
+    display: none; /* Naffiche pas la sous-navigation. */
+    }
+
+li:hover .sous-navigation {
+    display: block; /* Affichage de la sous-navigation en block. */
+}
+
+.grid-container {
+    display: grid; /* Type de grille */
+    grid-template-columns: repeat(7, 1fr); /* 8 Colonnes de largeur égale. */
+    gap: 20px; /* Espacement entre les items. */
+    padding: 20px; /* Espacement intérieur. */
+}
+
+.item {
+    background-color: beige; /* Couleur de fond des items. */
+    border: 4px solid #2d7d90; /* Bordure des items. */
+    padding: 20px; /* Espacement intérieur des items. */
+    text-align: center; /* Centrer le texte. */
+    border-radius: 15%; /* Bordure arrondie de l'item. */
+    min-width: 200px; /* Fixe la largeur minimale à 200px. */
+    min-height: 200px; /* Fixe la largeur maximale à 200px. */
+}
+
+button{
+    border-style: outset; /* Style de bordure. */
+    background-color: #38a3a5; /* Couleur de fond du bouton. */
+    border-color: #2d7d90; /* Couleur de la bordure. */
+    border-radius: 50px ; /* Arrondi la bordure. A changer. */
+    color: white; /* Couleur de la police. */
+    cursor: pointer; /* Afficher le pointeur. */
+    display: inline-block; /* Enligne dans le bloc. */
+    font-family: Quicksand; /* Choix de police. */
+    padding: 7px 20px; /* Epaisseur. */
+    text-align: center; /* Alignement du texte. */
+    text-decoration: none; /* Désactive le soulignement. */
+    transition: box-shadow .2s ease-in-out; /* Vitesse de transition. */
+    touch-action: manipulation; /* Adapte au tactile. */
+    white-space: nowrap; /* Empeche le retour a la ligne automatique. */
+}
+
+button:not([disabled]):focus {
+    box-shadow: 10px 7px 84px 0px rgba(56, 163, 165, 1); /* Focus du bouton. */
+}
+
+button:not([disabled]):hover {
+    box-shadow: 10px 7px 84px 0px rgba(56, 163, 165, 1); /* Survollement du bouton. */
+}
+
+.item img {
+    max-width: 100%; /* Assurer que l'image ne dépasse pas la taille de son conteneur. */
+    height: auto; /* Garantir que l'image conserve ses proportions. */
+    border-radius: 15%; /* Bordure arrondie de l'image. */
+}
+
+.plus{
+    background-color: #22577a; /* Couleur de fond du bouton plus. */
+    Border: #22577a; /* Couleur de bordure du bouton plus. */
+    border-radius: 25%; /* Bordure arrondie du bouton. */
+}
+  
+.moins{
+    background-color: #38a3a5; /* Couleur de fond du bouton moins. */
+    border: #38a3a5; /* Couleur de bordure du bouton moins. */
+    border-radius: 25%; /* Bordure arrondie du bouton. */
+}
+
+.button_link {
+    border-style: outset; /* Style de bordure. */
+    background-color: #38a3a5; /* Couleur de fond du bouton. */
+    border-color: #2d7d90; /* Couleur de la bordure. */
+    border-radius: 10px; /* Arrondi la bordure. */
+    color: white; /* Couleur de la police. */
+    cursor: pointer; /* Afficher le pointeur. */
+    display: inline-block; /* En ligne dans le bloc. */
+    font-family: Quicksand, sans-serif; /* Choix de police. */
+    padding: 7px 20px; /* Epaisseur. */
+    text-align: center; /* Alignement du texte. */
+    text-decoration: none; /* Désactive le soulignement. */
+    transition: box-shadow .2s ease-in-out; /* Vitesse de transition. */
+    touch-action: manipulation; /* Adapte au tactile. */
+    white-space: nowrap; /* Empêche le retour à la ligne automatique. */
+}
+
+.button_link:focus,
+.button_link:hover {
+    box-shadow: 10px 7px 84px 0px rgba(56, 163, 165, 1); /* Focus et survollement du bouton. */
+}
+
+.nombre{ /* Ne fonctionne pas. */
+    text-align: justify;
+}
