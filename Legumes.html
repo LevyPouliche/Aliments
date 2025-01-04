@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Légumes</title>
+
+        <link href="Style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <link rel="icon" href="../Index/logo.jpg" sizes="16x16">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet" />
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    </head>
+<body>
+
+<div class="grid-container">
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_A/Ail.jpg" alt="Ail">
+        <br>
+        Ail
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_A/Ail_Rocambole.jpg" alt="Ail_Rocambole">
+        <br>
+        Ail Rocambole
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_A/Amarante.jpg" alt="Amarante">
+        <br>
+        Amarante
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_A/Arachide.jpg" alt="Arachide">
+        <br>
+        Arachide
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_A/Aralia.jpg" alt="Aralia">
+        <br>
+        Aralia
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_A/Arroche_Des_Jardins.jpg" alt="Arroche_Des_Jardins">
+        <br>
+        Arroche Des Jardins
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_A/Artichaut.jpg" alt="Artichaut">
+        <br>
+        Artichaut
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_A/Asperge.jpg" alt="Asperge">
+        <br>
+        Asperge
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_A/Aubergine.jpg" alt="Aubergine">
+        <br>
+        Aubergine
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_B/Bardane.jpg" alt="Bardane">
+        <br>
+        Bardane
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_B/Basilic.jpg" alt="Basilic">
+        <br>
+        Basilic
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_B/Betterave.jpg" alt="Betterave">
+        <br>
+        Betterave
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_B/Brede_Mafane.jpg" alt="Brede_Mafane">
+        <br>
+        Brédé Mafane
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_B/Brocoli_Rave.jpg" alt="Brocoli_Rave">
+        <br>
+        Brocoli Rave
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Calebasse.jpg" alt="Calebasse">
+        <br>
+        Calebasse
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Canna.jpg" alt="Canna">
+        <br>
+        Canna
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Capucine_Tubereuse.jpg" alt="Capucine Tubéreuse">
+        <br>
+        Capucine Tubéreuse
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Cardon.jpg" alt="Cardon">
+        <br>
+        Cardon
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Carotte.jpg" alt="Carotte">
+        <br>
+        Carotte
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Celeri.jpg" alt="Celeri">
+        <br>
+        Céleri
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Celeri_Rave.jpg" alt="Celeri_Rave">
+        <br>
+        Céleri Rave
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Cerfeuil_Tubereux.jpg" alt="Cerfeuil_Tubereux">
+        <br>
+        Cerfeuil Tubéreux
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Chataigne_De_Terre.jpg" alt="Chataigne_De_Terre">
+        <br>
+        Châtaigne De Terre
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Chayote.jpg" alt="Chayote">
+        <br>
+        Chayote
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Chenopode_Bon-henri.jpg" alt="Chenopode_Bon-henri">
+        <br>
+        Chenopode Bon-henri
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Chervis.jpg" alt="Chervis">
+        <br>
+        Chervis
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Chia.jpg" alt="Chia">
+        <br>
+        Chia
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Chou.jpg" alt="Chou">
+        <br>
+        Chou
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Chou_Champetre.jpg" alt="Chou_Champetre">
+        <br>
+        Chou Champêtre
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Ciboule.jpg" alt="Ciboule">
+        <br>
+        Ciboule
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Ciboule_De_Chine.jpg" alt="Ciboule_De_Chine">
+        <br>
+        Ciboule De Chine
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Ciboulette.jpg" alt="Ciboulette">
+        <br>
+        Ciboulette
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Claytone_De_Cuba.jpg" alt="Claytone_De_Cuba">
+        <br>
+        Claytone De Cuba
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Coeur_De_Palmier.jpg" alt="Coeur_De_Palmier">
+        <br>
+        Coeur De Palmier
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Concombre.jpg" alt="Concombre">
+        <br>
+        Concombre
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Coqueret_Du_Perou.jpg" alt="Coqueret_Du_Perou">
+        <br>
+        Coqueret Du Pérou
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Courge_Cireuse.jpg" alt="Courge_Cireuse">
+        <br>
+        Courge Cireuse
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Courge_De_Siam.jpg" alt="Courge_De_Siam">
+        <br>
+        Courge De Siam
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Courgette.jpg" alt="Courgette">
+        <br>
+        Courgette
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Cresson_Alenois.jpg" alt="Cresson_Alenois">
+        <br>
+        Cresson Alénois
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Cresson_De_Fontaine.jpg" alt="Cresson_De_Fontaine">
+        <br>
+        Cresson De Fontaine
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Cresson_De_Jardin.jpg" alt="Cresson_De_Jardin">
+        <br>
+        Cresson De Jardin
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Crosne_Du_Japon.jpg" alt="Crosne_Du_Japon">
+        <br>
+        Crosne Du Japon
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_C/Curcuma.jpg" alt="Curcuma">
+        <br>
+        Curcuma
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_D/Doubeurre.jpg" alt="Doubeurre">
+        <br>
+        Doubeurre
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_E/Echalote.jpg" alt="Echalote">
+        <br>
+        Échalote
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_E/Endive.jpg" alt="Endive">
+        <br>
+        Endive
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_E/Epinard.jpg" alt="Epinard">
+        <br>
+        Épinard
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_E/Epinard_De_Malabar.jpg" alt="Epinard_De_Malabar">
+        <br>
+        Épinard De Malabar
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_F/Fenouil.jpg" alt="Fenouil">
+        <br>
+        Fenouil
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_F/Feve.jpg" alt="Feve">
+        <br>
+        Fève
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_F/Ficoide_Glaciale.jpg" alt="Ficoide_Glaciale">
+        <br>
+        Ficoide Glaciale
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_G/Gesse.jpg" alt="Gesse">
+        <br>
+        Gesse
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_G/Gingembre.jpg" alt="Gingembre">
+        <br>
+        Gingembre
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_G/Glycine_Tubereuse.jpg" alt="Glycine_Tubereuse">
+        <br>
+        Glycine Tubéreuse
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_G/Gombo.jpg" alt="Gombo">
+        <br>
+        Gombo
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_G/Grande_Bardane.jpg" alt="Grande_Bardane">
+        <br>
+        Grande Bardane
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_G/Guimauve.jpg" alt="Guimauve">
+        <br>
+        Guimauve
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_H/Haricot_Azuki.jpg" alt="Haricot_Azuki">
+        <br>
+        Haricot Azuki
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_H/Haricot_De_Lima.jpg" alt="Haricot_De_Lima">
+        <br>
+        Haricot De Lima
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_H/Haricot_Despagne.jpg" alt="Haricot_Despagne">
+        <br>
+        Haricot D'Espagne
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_H/Haricot_Mungo.jpg" alt="Haricot_Mungo">
+        <br>
+        Haricot Mungo
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_H/Haricot_Sabre.jpg" alt="Haricot_Sabre">
+        <br>
+        Haricot Sabre
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_H/Haricot_Vert.jpg" alt="Haricot_Vert">
+        <br>
+        Haricot Vert
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_H/Helianthis.jpg" alt="Helianthis">
+        <br>
+        Hélianthis
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_H/Herbe_De_Sainte_Barbe.jpg" alt="Herbe_De_Sainte_Barbe">
+        <br>
+        Herbe De Sainte-Barbe
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_I/Igname.jpg" alt="Igname">
+        <br>
+        Igname
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_J/Jujubier.jpg" alt="Jujubier">
+        <br>
+        Jujubier
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_L/Lablab.jpg" alt="Lablab">
+        <br>
+        Lablab
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_L/Laitue.jpg" alt="Laitue">
+        <br>
+        Laitue
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_L/Lentille.jpg" alt="Lentille">
+        <br>
+        Lentille
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_L/Liseron_Deau.jpg" alt="Liseron_Deau">
+        <br>
+        Liseron D'Eau
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_L/Luffa.jpg" alt="Luffa">
+        <br>
+        Luffa
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_M/Maceron.jpg" alt="Maceron">
+        <br>
+        Maceron
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_M/Mache.jpg" alt="Mache">
+        <br>
+        Mâche
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_M/Mais.jpg" alt="Mais">
+        <br>
+        Mais
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_M/Manioc.jpg" alt="Manioc">
+        <br>
+        Manioc
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_M/Margose.jpg" alt="Margose">
+        <br>
+        Margose
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_M/Mauve.jpg" alt="Mauve">
+        <br>
+        Mauve
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_M/Menthe.jpg" alt="Menthe">
+        <br>
+        Menthe
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_N/Navet.jpg" alt="Navet">
+        <br>
+        Navet
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_N/Niebe.jpg" alt="Niebe">
+        <br>
+        Niébé
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_N/Nombril_De_Venus.jpg" alt="Nombril_De_Venus">
+        <br>
+        Nombril De Vénus
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_O/Oca_Du_Perou.jpg" alt="Oca_Du_Perou">
+        <br>
+        Oca Du Pérou
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_O/Oignon.jpg" alt="Oignon">
+        <br>
+        Oignon
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_O/Onagre.jpg" alt="Onagre">
+        <br>
+        Onagre
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_O/Ortie.jpg" alt="Ortie">
+        <br>
+        Ortie
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_O/Oseille.jpg" alt="Oseille">
+        <br>
+        Oseille
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Panais.jpg" alt="Panais">
+        <br>
+        Panais
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Patate_Douce.jpg" alt="Patate_Douce">
+        <br>
+        Patate Douce
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Persil.jpg" alt="Persil">
+        <br>
+        Persil
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Petit_Pois.jpg" alt="Petit_Pois">
+        <br>
+        Petit Pois
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Piment.jpg" alt="Piment">
+        <br>
+        Piment
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Pissenlit.jpg" alt="Pissenlit">
+        <br>
+        Pissenlit
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Poire_De_Terre.jpg" alt="Poire_De_Terre">
+        <br>
+        Poire De Terre
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Poireau.jpg" alt="Poireau">
+        <br>
+        Poireau
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Poireau_Perpetuel.jpg" alt="Poireau_Perpetuel">
+        <br>
+        Poireau perpétuel
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Pois_Chiche.jpg" alt="Pois_Chiche">
+        <br>
+        Pois Chiche
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Pois_Dangole.jpg" alt="Pois_Dangole">
+        <br>
+        Pois_Dangole
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Poivre_De_Chine.jpg" alt="Poivre_De_Chine">
+        <br>
+        Poivre De Chine 
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Poivron.jpg" alt="Poivron">
+        <br>
+        Poivron
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Pomme_De_Terre.jpg" alt="Pomme_De_Terre">
+        <br>
+        Pomme De Terre
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Potiron.jpg" alt="Potiron">
+        <br>
+        Potiron
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Pourpier.jpg" alt="Pourpier">
+        <br>
+        Pourpier
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_P/Pousse_De_Bamboo.jpg" alt="Pousse_De_Bamboo">
+        <br>
+        Pousse De Bamboo
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_R/Radis.jpg" alt="Radis">
+        <br>
+        Radis
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_R/Radis_Serpent.jpg" alt="Radis_Serpent">
+        <br>
+        Radis Serpent
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_R/Raifort.jpg" alt="Raifort">
+        <br>
+        Raifort
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_R/Rhubarbe.jpg" alt="Rhubarbe">
+        <br>
+        Rhubarbe
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_R/Roquette.jpg" alt="Roquette">
+        <br>
+        Roquette
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_R/Roquette_Dorient.jpg" alt="Roquette_Dorient">
+        <br>
+        Roquette_Dorient
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_S/Salicorne.jpg" alt="Salicorne">
+        <br>
+        Salicorne
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_S/Salsifis.jpg" alt="Salsifis">
+        <br>
+        Salsifis
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_S/Salsifis_Noir.jpg" alt="Salsifis_Noir">
+        <br>
+        Salsifis Noir
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_S/Scarole.jpg" alt="Scarole">
+        <br>
+        Scarole
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_S/Scorsonere.jpg" alt="Scorsonere">
+        <br>
+        Scorsonère
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_S/Shiso.jpg" alt="Shiso">
+        <br>
+        Shiso
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_S/Soja.jpg" alt="Soja">
+        <br>
+        Soja
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_S/Souchet.jpg" alt="Souchet">
+        <br>
+        Souchet
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_T/Taro.jpg" alt="Taro">
+        <br>
+        Taro
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_T/Tetragone_Cornue.jpg" alt="Tetragone_Cornue">
+        <br>
+        Tétragone Cornue
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_T/Tinda.jpg" alt="Tinda">
+        <br>
+        Tinda
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_T/Tomate.jpg" alt="Tomate">
+        <br>
+        Tomate
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_T/Topinambour.jpg" alt="Topinambour">
+        <br>
+        Topinambour
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_W/Wakame.jpg" alt="Wakame">
+        <br>
+        Wakame
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+    <div class="item">
+        <img src="Images_Legumes/Legumes_W/Wasabi.jpg" alt="Wasabi">
+        <br>
+        Wasabi
+        <br>
+        <button class="plus" onclick="incrementerNombre(this)">+</button> <span class="nombre">0</span><button class="moins" onclick="decrementerNombre(this)">-</button>
+    </div>
+
+</div>
+
+<script src="Quantite.js"></script>
+</body>
+</html>
